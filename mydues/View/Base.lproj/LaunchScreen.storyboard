@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyDues" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KS3-yw-a0f">
+                                <rect key="frame" x="591.5" y="199" width="183" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="0x7-HG-o2I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="50"/>
+                                <color key="textColor" red="0.13333332540000001" green="0.20392158630000001" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pI4-O1-03T">
+                                <rect key="frame" x="547.5" y="949" width="271.5" height="24"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Developed by Venoli Gamage">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333332540000001" green="0.20392158630000001" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="21" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app-logo" translatesAutoresizingMaskIntoConstraints="NO" id="bPK-JG-FJH">
+                                <rect key="frame" x="558" y="377" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bPK-JG-FJH" secondAttribute="height" multiplier="1:1" id="KEY-wF-eyY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uR-qx-ksm">
+                                <rect key="frame" x="543" y="271" width="280.5" height="24"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your Personal Budget Planner">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333332540000001" green="0.20392158630000001" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="21" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KS3-yw-a0f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="199" id="0f2-Fe-12x"/>
+                            <constraint firstItem="0uR-qx-ksm" firstAttribute="top" secondItem="KS3-yw-a0f" secondAttribute="bottom" constant="19" id="6p3-Ps-gtQ"/>
+                            <constraint firstItem="bPK-JG-FJH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="J3n-NB-EcR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pI4-O1-03T" secondAttribute="bottom" constant="31" id="VUp-EX-c2g"/>
+                            <constraint firstItem="KS3-yw-a0f" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="W92-gu-Irw"/>
+                            <constraint firstItem="bPK-JG-FJH" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="XiB-uu-TI3"/>
+                            <constraint firstItem="pI4-O1-03T" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hxE-Uw-Rfb"/>
+                            <constraint firstItem="0uR-qx-ksm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ofA-f5-Ym2"/>
+                            <constraint firstItem="bPK-JG-FJH" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.244141" id="tgQ-5d-iRs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.708638360175691" y="374.4140625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app-logo" width="177" height="156.5"/>
+    </resources>
+</document>

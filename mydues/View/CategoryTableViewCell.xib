@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProjectCell" id="KGk-i7-Jjw" customClass="CategoryTableViewCell" customModule="MyDues" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YGn-Yt-m3H">
+                        <rect key="frame" x="21" y="7.5" width="378" height="100"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Via-ed-GSJ">
+                                <rect key="frame" x="350" y="9" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Via-ed-GSJ" secondAttribute="height" multiplier="1:1" id="3Uo-jR-h2O"/>
+                                    <constraint firstAttribute="width" constant="22" id="IvX-gh-TkZ"/>
+                                    <constraint firstAttribute="height" constant="22" id="QrX-iF-P66"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleViewNotesClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5IV-8p-fEM"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Note" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GFw-Za-hVS">
+                                <rect key="frame" x="19" y="60" width="340" height="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbr-62-9a7">
+                                <rect key="frame" x="19" y="34.5" width="176" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Budget">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="16"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Category Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0E-P7-eA0">
+                                <rect key="frame" x="19" y="3" width="333" height="40"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2901961207" green="0.63921570780000003" blue="0.74901962280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="h0E-P7-eA0" firstAttribute="width" secondItem="YGn-Yt-m3H" secondAttribute="width" multiplier="0.881643" id="6t1-Ca-SfB"/>
+                            <constraint firstItem="Jbr-62-9a7" firstAttribute="width" secondItem="YGn-Yt-m3H" secondAttribute="width" multiplier="0.466184" id="6w0-xG-NIJ"/>
+                            <constraint firstItem="Jbr-62-9a7" firstAttribute="height" secondItem="YGn-Yt-m3H" secondAttribute="height" multiplier="0.2" id="9u6-pa-tsw"/>
+                            <constraint firstItem="h0E-P7-eA0" firstAttribute="height" secondItem="YGn-Yt-m3H" secondAttribute="height" multiplier="0.4" id="BZG-HZ-1m4"/>
+                            <constraint firstItem="GFw-Za-hVS" firstAttribute="centerX" secondItem="YGn-Yt-m3H" secondAttribute="centerX" id="FT6-HY-NOs"/>
+                            <constraint firstItem="h0E-P7-eA0" firstAttribute="top" secondItem="YGn-Yt-m3H" secondAttribute="top" constant="3" id="FT9-wF-HYh"/>
+                            <constraint firstItem="h0E-P7-eA0" firstAttribute="leading" secondItem="GFw-Za-hVS" secondAttribute="leading" id="G9f-6z-8rr"/>
+                            <constraint firstItem="Via-ed-GSJ" firstAttribute="top" secondItem="YGn-Yt-m3H" secondAttribute="top" constant="9" id="KpO-ZA-StD"/>
+                            <constraint firstItem="GFw-Za-hVS" firstAttribute="height" secondItem="YGn-Yt-m3H" secondAttribute="height" multiplier="0.4" id="KvG-Na-lBD"/>
+                            <constraint firstAttribute="bottom" secondItem="GFw-Za-hVS" secondAttribute="bottom" id="SQd-PK-4Vk"/>
+                            <constraint firstItem="GFw-Za-hVS" firstAttribute="width" secondItem="YGn-Yt-m3H" secondAttribute="width" multiplier="0.9" id="ZRh-vC-hMy"/>
+                            <constraint firstItem="GFw-Za-hVS" firstAttribute="top" secondItem="Jbr-62-9a7" secondAttribute="bottom" constant="5.5" id="cda-fn-20R"/>
+                            <constraint firstItem="Jbr-62-9a7" firstAttribute="leading" secondItem="GFw-Za-hVS" secondAttribute="leading" id="mfb-QN-cC6"/>
+                            <constraint firstItem="h0E-P7-eA0" firstAttribute="leading" secondItem="Jbr-62-9a7" secondAttribute="leading" id="uvT-CS-DAu"/>
+                            <constraint firstAttribute="trailing" secondItem="Via-ed-GSJ" secondAttribute="trailing" constant="6" id="zhg-H2-pD9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.13333332540000001" green="0.20392158630000001" blue="0.32549020649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="YGn-Yt-m3H" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="3tb-1x-iah"/>
+                    <constraint firstItem="YGn-Yt-m3H" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.87" id="p3N-dW-xvz"/>
+                    <constraint firstItem="YGn-Yt-m3H" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.9" id="rF3-K0-mOJ"/>
+                    <constraint firstItem="YGn-Yt-m3H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="uB7-cf-4T0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="budgetLabel" destination="Jbr-62-9a7" id="3EY-nk-eNc"/>
+                <outlet property="categoryNameLabel" destination="h0E-P7-eA0" id="9Ja-sH-9fP"/>
+                <outlet property="categoryView" destination="YGn-Yt-m3H" id="X6n-Nq-wVK"/>
+                <outlet property="notesTextView" destination="GFw-Za-hVS" id="0hv-ZJ-vqz"/>
+            </connections>
+            <point key="canvasLocation" x="-454.39999999999998" y="41.829085457271368"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -62,15 +62,22 @@ Spending Management Tool for iPads. 6COSC004W Mobile Native Development Coursewo
 
 <img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot8.png" width="400" height="300" align="right"/>
 <img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot6.png" width="400" height="300" align="left"/>
-<br>
-<br>
-<br>
 </br>
 </br>
 </br>
 </br>
 </br>
-<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot9.png" width="400" height="300" align="center"/>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot9.png" width="400" height="300"/>
 
 
 

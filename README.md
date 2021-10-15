@@ -60,8 +60,8 @@ Spending Management Tool for iPads. 6COSC004W Mobile Native Development Coursewo
 ### :calendar: :bell: Calendar Notifications
 </br>
 
-<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot8.png" width="400" height="300" align="right"/>
-<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot6.png" width="400" height="300" align="left"/>
+<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot8.png" width="380" height="290" align="right"/>
+<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot6.png" width="380" height="290" align="left"/>
 </br>
 </br>
 </br>
@@ -77,7 +77,7 @@ Spending Management Tool for iPads. 6COSC004W Mobile Native Development Coursewo
 </br>
 </br>
 </br>
-<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot9.png" width="400" height="300"/>
+<img src="https://github.com/Venoli/MyDues/blob/main/Screenshots/Screenshot9.png" width="380" height="290"/>
 
 
 
